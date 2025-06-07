@@ -29,11 +29,3 @@ jobs:
         with:
           name: confusion-matrix
           path: confusion_matrix.png
-"""
-
-# Simpan sebagai file YAML
-yaml_path = "/mnt/data/run-twitter-nb.yml"
-with open(yaml_path, "w") as f:
-    f.write(yaml_content)
-
-yaml_path
